@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#9C27B0"
+    tools:context=".DashboardActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DOMESTIC ANIMALS"
+        android:textColor="@color/yellowLight"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/cow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cow"
+        android:paddingTop="10dp"
+        android:textColor="@color/yellowLight"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:id="@+id/dog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dog"
+        android:paddingTop="10dp"
+        android:textColor="@color/yellowLight"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:id="@+id/cat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cat"
+        android:paddingTop="10dp"
+        android:textColor="@color/yellowLight"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:id="@+id/sheep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sheep"
+        android:paddingTop="10dp"
+        android:textColor="@color/yellowLight"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:id="@+id/goat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Goat"
+        android:paddingTop="10dp"
+        android:textColor="@color/yellowLight"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:id="@+id/carmel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carmel"
+        android:paddingTop="10dp"
+        android:textColor="@color/yellowLight"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:id="@+id/donkey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Donkey"
+        android:paddingTop="10dp"
+        android:textColor="@color/yellowLight"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:id="@+id/horse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Horse"
+        android:paddingTop="10dp"
+        android:textColor="@color/yellowLight"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:id="@+id/rabbit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rabbit"
+        android:paddingTop="10dp"
+        android:textColor="@color/yellowLight"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:id="@+id/pig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pig"
+        android:paddingTop="10dp"
+        android:textColor="@color/yellowLight"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:id="@+id/chicken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chicken"
+        android:paddingTop="10dp"
+        android:textColor="@color/yellowLight"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:id="@+id/DuckGheese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ducks and Gheese"
+        android:paddingTop="10dp"
+        android:textColor="@color/yellowLight"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:id="@+id/Bees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bees"
+        android:paddingTop="10dp"
+        android:textColor="@color/yellowLight"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="LOG OUT!"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@color/yellowLight"/>
+
+
+
+</LinearLayout>
